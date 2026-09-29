@@ -17,7 +17,7 @@ export default function Header() {
   return (<>
     <header className="sticky top-0 left-0 w-full bg-white py-4 border-b border-neutral-200 z-50">
       <div className="container">
-        <div className="px-4 sm:px-8 flex items-center justify-between">
+        <div className="px-4 flex items-center justify-between">
           {/* LOGO */}
           <Logo />
 
@@ -52,7 +52,7 @@ export default function Header() {
             <ul className="flex gap-8">
               {navItems.map((item) => (
                 <li key={item.id}>
-                  <Link href={item.href} className="decoration-transparent hover:underline underline-offset-6 decoration-2 transition-colors duration-300 hover:decoration-current">{item.label}</Link>
+                  <Link href={item.href} className="decoration-transparent hover:underline hover:text-teal-600 focus:underline focus:text-teal-600 underline-offset-6 decoration-2 transition-colors duration-300 hover:decoration-current ">{item.label}</Link>
                 </li>
               ))}
             </ul>

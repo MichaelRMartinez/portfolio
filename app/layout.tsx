@@ -10,7 +10,7 @@ const fontLexend = Lexend({
 });
 
 export const metadata: Metadata = {
-  title: "Michael Martinez | Front End Accessibility Specialist",
+  title: "Michael Martinez | Front-End Developer & Accessibility Specialist",
   description: "Michael Martinez is a Front End Accessibility Specialist building inclusive, high-performance web experiences. Explore my portfolio, projects, and resume.",
 };
 
@@ -22,7 +22,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col">
         <Header />
-        {children}
+        <main>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

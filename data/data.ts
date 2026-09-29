@@ -98,3 +98,77 @@ export const capabilitiesItems = [
     desc: "Optimize semantic structure and content to improve search visibility and discoverability",
   },
 ];
+
+export const projects = [
+  {
+    id: 1,
+    title: "FlashMaster",
+    summary: "A landing page for an education platform filled with bright colors and animations",
+    imageUrl: "/images/flashmaster.png",
+    tags: [
+      "React",
+      "Motion",
+    ],
+    projectLink: "https://flashmaster-mm.netlify.app/",
+    githubLink: "https://github.com/MichaelRMartinez/flashcard-react-landing-page",
+    width: 	1220,
+    height: 700,
+  },
+  {
+    id: 2,
+    title: "TaskNest",
+    summary: "A landing page built with Next.JS, filled with bright colors and animations by GSAP",
+    imageUrl: "/images/tasknest.png",
+    tags: [
+      "Next.JS",
+      "GSAP",
+    ],
+    projectLink: "https://tasknest-mm.netlify.app/",
+    githubLink: "https://github.com/MichaelRMartinez/GSAP-nextjs-landing-page",
+    width: 	1220,
+    height: 700,
+  },
+  {
+    id: 3,
+    title: "Dentora",
+    summary: "A dental business website built with Next.JS",
+    imageUrl: "/images/dentora.png",
+    tags: [
+      "Next.JS",
+    ],
+    projectLink: "https://dentora-mm.netlify.app/",
+    githubLink: "https://github.com/MichaelRMartinez/dental-nextjs-website",
+    width: 	1220,
+    height: 700,
+  },
+  {
+    id: 4,
+    title: "Simple Jack Finance",
+    summary: "A blog website built with Next.JS and Sanity CMS",
+    imageUrl: "/images/simplejackfinance.png",
+    tags: [
+      "Next.JS",
+      "Sanity",
+    ],
+    projectLink: "https://simplejackfinance-mm.netlify.app/",
+    githubLink: "https://github.com/MichaelRMartinez/nextjs-sanity-blog-site",
+    width: 	1220,
+    height: 700,
+  },
+  {
+    id: 5,
+    title: "Michael Martinez",
+    summary: "My developer portfolio website",
+    imageUrl: "/images/michaelmartinez.png",
+    tags: [
+      "Next.JS",
+      "Sanity",
+      "Motion",
+    ],
+    projectLink: "https://michaelmartinez-dev.netlify.app/",
+    githubLink: "https://github.com/MichaelRMartinez/portfolio",
+    width: 	1220,
+    height: 700,
+  },
+
+];

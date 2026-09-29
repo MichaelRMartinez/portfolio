@@ -32,4 +32,7 @@
   .text {
     @apply text-neutral-500 leading-relaxed;
   }
+  .outbound-link {
+    @apply underline underline-offset-2 hover:text-teal-600 focus:text-teal-600 transition-colors duration-300;
+  }
 }

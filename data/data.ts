@@ -7,6 +7,8 @@ import {
   RiGithubFill,
   RiSeoFill,
   RiAccessibilityFill,
+  RiCodeBoxFill,
+  RiFolder2Fill
 } from "@remixicon/react";
 
 export const navItems = [
@@ -65,7 +67,34 @@ export const skillItems = [
   },
   {
     id: 8,
-    label: "Accessiblity",
+    label: "Accessibility",
     icon: RiAccessibilityFill
   }
 ]
+
+export const capabilitiesItems = [
+  {
+    id: 1,
+    icon: RiCodeBoxFill,
+    title: "Front End Development",
+    desc: "Build responsive, modern websites using React, Next.js, Motion, and Sanity CMS",
+  },
+  {
+    id: 2,
+    icon: RiAccessibilityFill,
+    title: "Accessibility Remediation",
+    desc: "Identify and resolve accessibility barriers to create inclusive, WCAG-compliant experiences",
+  },
+  {
+    id: 3,
+    icon: RiFolder2Fill,
+    title: "Quality Assurance Testing",
+    desc: "Test websites across different browsers and devices to catch and eliminate bugs",
+  },
+  {
+    id: 4,
+    icon: RiSeoFill,
+    title: "Search Engine Optimization",
+    desc: "Optimize semantic structure and content to improve search visibility and discoverability",
+  },
+];

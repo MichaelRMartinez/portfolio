@@ -1,6 +1,6 @@
 
 "use client";
-import { RiMenuLine, Ri, RiCloseLine } from "@remixicon/react";
+import { RiMenuLine, RiCloseLine } from "@remixicon/react";
 import Logo from "./Logo";
 import { navItems } from "@/data/data";
 import Link from "next/link";
@@ -39,7 +39,7 @@ export default function Header() {
                   ))}
                 </ul>
                 <div>
-                  <button className="button shadow-util rounded-4xl px-3 py-1 bg-teal-500 text-white ml-3 mt-3 mb-3">Contact Me</button>
+                  <button className="button shadow-util rounded-4xl px-3 py-1 bg-teal-200 hover:bg-teal-400 focus:bg-teal-400 ml-3 mt-3 mb-3">Contact Me</button>
                 </div>
               </div>
             )}
@@ -57,7 +57,7 @@ export default function Header() {
               ))}
             </ul>
             <div>
-              <button className="button shadow-util rounded-4xl px-3 py-1 bg-teal-500 text-white hover:bg-teal-600 transition-colors duration-300">Contact Me</button>
+              <button className="button shadow-util rounded-4xl px-3 py-1 bg-teal-200 hover:bg-teal-400 focus:bg-teal-400 transition-colors duration-300">Contact Me</button>
             </div>
           </nav>
         </div>

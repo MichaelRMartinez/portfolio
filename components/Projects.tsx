@@ -3,7 +3,6 @@ import { useState } from "react";
 import { projects } from "@/data/data";
 import { RiPagesFill, RiGithubFill } from "@remixicon/react";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Projects() {
 
@@ -68,15 +67,15 @@ export default function Projects() {
                     ))}
                   </p>
                   <div className="flex gap-x-3">
-                    <Link href={project.githubLink} className="flex shadow-util rounded-full py-3 px-2 bg-teal-200">
+                    <a href={project.githubLink} target="_blank" className="flex shadow-util rounded-full py-3 px-2 bg-teal-200">
                       <RiGithubFill className="" />
                       GitHub
-                    </Link>
+                    </a>
 
-                    <Link href={project.githubLink} className="flex shadow-util rounded-full py-3 px-2 bg-teal-200">
+                    <a href={project.demoLink} target="_blank" className="flex shadow-util rounded-full py-3 px-2 bg-teal-200">
                       <RiPagesFill className="mr-1" />
                       Demo
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>

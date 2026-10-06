@@ -44,7 +44,7 @@ export default function Projects() {
           <div className="mt-10 sm:mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {filteredProjects.map((project) => (
               // CARD
-              <div key={project.id} className="bg-white rounded-xl border border-neutral-200 overflow-hidden hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] transition">
+              <div key={project.id} className="bg-white rounded-xl border border-neutral-200 overflow-hidden hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:border-black focus:border-black transition">
                 {/* IMAGE */}
                 <div className="w-full overflow-hidden flex items-center justify-center relative">
                   <Image
@@ -59,20 +59,20 @@ export default function Projects() {
                 {/* CONTENT */}
                 <div className="p-6 space-y-2">
                   <h3 className="font-bold text-lg">{project.title}</h3>
-                  <p className="text">{project.summary}</p>
                   <p>
                     Tags:
                     {project.tags.map((tag) => (
                       <span key={tag} className="ml-6 text">{tag}</span>
                     ))}
                   </p>
+                  <p className="text">{project.summary}</p>
                   <div className="flex gap-x-3">
-                    <a href={project.githubLink} target="_blank" className="flex shadow-util rounded-full py-3 px-2 bg-teal-200">
+                    <a href={project.githubLink} target="_blank" className="flex shadow-util rounded-full py-3 px-2 bg-teal-200 hover:bg-teal-400 focus:bg-teal-400 transition-colors duration-300">
                       <RiGithubFill className="" />
                       GitHub
                     </a>
 
-                    <a href={project.demoLink} target="_blank" className="flex shadow-util rounded-full py-3 px-2 bg-teal-200">
+                    <a href={project.demoLink} target="_blank" className="flex shadow-util rounded-full py-3 px-2 bg-teal-200 hover:bg-teal-400 focus:bg-teal-400 transition-colors duration-300">
                       <RiPagesFill className="mr-1" />
                       Demo
                     </a>

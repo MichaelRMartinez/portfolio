@@ -4,9 +4,9 @@ export default function Banner() {
   return (<>
     <section className="bg-neutral-900 py-4">
       <div className="container">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:flex lg:flex-wrap gap-4">
+        <div className="flex flex-wrap justify-between gap-y-4 items-center">
           {skillItems.map((item) => (
-            <div className="ml-8 text-white flex gap-1" key={item.id}>
+            <div key={item.id} className="text-white flex gap-1 basis-full md:basis-1/4 lg:basis-auto">
               <item.icon />
               <span>{item.label}</span>
             </div>

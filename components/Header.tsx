@@ -17,7 +17,7 @@ export default function Header() {
   return (<>
     <header className="sticky top-0 left-0 w-full bg-white py-4 border-b border-neutral-200 z-50">
       <div className="container">
-        <div className="px-4 flex items-center justify-between">
+        <div className="flex items-center justify-between">
           {/* LOGO */}
           <Logo />
 
@@ -39,7 +39,7 @@ export default function Header() {
                   ))}
                 </ul>
                 <div>
-                  <button className="button shadow-util rounded-4xl px-3 py-1 bg-teal-200 hover:bg-teal-400 focus:bg-teal-400 ml-3 mt-3 mb-3">Contact Me</button>
+                  <a className="inline-block button shadow-util rounded-4xl px-3 py-1 bg-teal-200 hover:bg-teal-400 focus:bg-teal-400 ml-3 mt-3 mb-3" href="https://www.linkedin.com/in/mrmartinez1/" target="_blank">Contact Me</a>
                 </div>
               </div>
             )}
@@ -57,7 +57,7 @@ export default function Header() {
               ))}
             </ul>
             <div>
-              <button className="button shadow-util rounded-4xl px-3 py-1 bg-teal-200 hover:bg-teal-400 focus:bg-teal-400 transition-colors duration-300">Contact Me</button>
+              <a className="button shadow-util rounded-4xl px-3 py-1 bg-teal-200 hover:bg-teal-400 focus:bg-teal-400 transition-colors duration-300" href="https://www.linkedin.com/in/mrmartinez1/" target="_blank">Contact Me</a>
             </div>
           </nav>
         </div>

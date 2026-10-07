@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { RiCheckboxCircleFill } from "@remixicon/react";
 import { benefits } from "@/data/data";
+import Button from "./Button";
 
 export default function WhyWork() {
   return (<>
@@ -31,7 +32,6 @@ export default function WhyWork() {
         {/* CONTENT */}
         <div>
           <h2 className="section-title mb-2">Why Work Together?</h2>
-          <p className="text">I have over 10 years of experience working in the web field across different roles.</p>
 
           {/* LIST */}
           <ul className="mt-8 space-y-4">
@@ -44,6 +44,9 @@ export default function WhyWork() {
               </li>
             ))}
           </ul>
+          <div className="mt-10 ml-9">
+            <Button label={'Get in Touch'} url={'https://www.linkedin.com/in/mrmartinez1/'} primary />
+          </div>
         </div>
       </div>
     </section>

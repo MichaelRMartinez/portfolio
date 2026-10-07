@@ -175,14 +175,14 @@ export const projects = [
 export const benefits = [
   {
     id: 1,
-    text: "Since 2023, I have been working as the QA/Section 508 Analyst for WebFirst (a Redhawk company) where I have been remediating functional and accessibility bugs for the Department of Health and Human Services (HHS) and the Department of Labor (DOL).",
+    text: "I have over a decade of hands-on experience working with different parts of the web field, including front-end development, search engine optimization, QA testing, and accessibility remediation.",
   },
   {
     id: 2,
-    text: "Between the years of 2019 and 2023, I QA tested and remediated accessibility issues for the private sector. As the Senior QA Analyst/Accessibility Specialist for Pace Communications, I was pleased to turn in great work for Wells Fargo, PepsiCo, Truist, Verizon, and Sysco.",
+    text: "I have worked in the private sector and public sector. Some of the clients I have worked with include Wells Fargo, PepsiCo, Verizon, Truist, the Department of Labor (DOL), and the Department of Health and Human Services (HHS).",
   },
     {
     id: 3,
-    text: "In 2018, I provided digital marketing and search engine optimization for a small business, Advanced Gourmet, that sold food display cases shipped from Italy.",
+    text: "I have earned the Trusted Tester certificate from the Department of Homeland Security (DHS), meaning I am certified to evaluate websites for compliance with Section 508 accessibility standards.",
   },
 ];

@@ -62,7 +62,7 @@ export default function Projects() {
                   <p>
                     Tags:
                     {project.tags.map((tag) => (
-                      <span key={tag} className="ml-6 text">{tag}</span>
+                      <span key={tag} className="ml-5 text">{tag}</span>
                     ))}
                   </p>
                   <p className="text">{project.summary}</p>
